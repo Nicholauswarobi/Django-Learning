@@ -2,22 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: aquamarine;
-}
 
-p{
-    width: 400px;
+    background-color: aquamarine;
+    text-align: center;
     padding: 20px;
-    font-size: 20px;
-    color: blue;
+    color: #267272
 }
 
 img{
