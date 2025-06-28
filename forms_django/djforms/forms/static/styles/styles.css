@@ -1,0 +1,101 @@
+body{
+    background-color: antiquewhite;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+button{
+    background-color: #1b7bd4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #073d70;
+}
+
+h1{
+    color: #1b7bd4;
+    text-align: center;
+}
+
+.btn{
+    font-size: 16px;
+    outline: none;
+}
+
+.logo{
+    width: 30%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.centered-contect{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    color:#1b7bd4;
+}
+
+
+/* Form Styles */
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 6px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+
+/* Success Page Styles */
+.success-massage{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 6px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.success-massage p{
+    margin: 20px 0;
+}
+

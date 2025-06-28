@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Page</title>
+    <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+</head>
+<body>
+    <div class="success-massage">
+    <h1>Success!!</h1>
+    <p>Your contact message has been sucessfully sent. We'll be in touch soon.</p>
+
+    <a href="{% url 'home' %}">Back to Home Page</a>
+    </div>
+
+</body>
+</html>
